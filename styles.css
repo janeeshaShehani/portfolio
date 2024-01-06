@@ -1,0 +1,173 @@
+#{
+    margin : 0px;
+    padding: 0px;
+    font-family: century;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./1.jpeg);
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    animation: change infinite;
+    animation-duration: 60s;
+    
+}
+
+@keyframes change{
+    0%{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./1.jpeg);
+    }
+    25%{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./2.jpeg);
+    }
+    50%{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./3.jpeg);
+    }
+    75%{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./4.jpeg);
+    }
+    100%{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./5.jpeg);
+    }
+    }
+
+
+ul{
+    float: right;
+    list-style-type: none; 
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 30px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    background-color: #ebebe4;
+    color: #000;
+}
+
+
+.logo{
+    font-size: 70px;
+    color: #ff0101;
+    float: left;
+}
+
+.logoo{
+    font-size: 70px;
+    color: #fff;
+    float: left;
+}
+
+.title{
+    float: left;
+    font-size: 60px;
+    color: #ddc125;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    font-family: Cambria;
+    font-weight: bold;
+}
+
+.title1{
+    color: rgb(250, 245, 0);
+    font-family: Cambria;
+    font-size: 60px;
+}
+
+
+.download-btn{
+    background-color: rgb(144, 226, 56);
+    color: #000000;
+
+}
+.gradient-text {
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #ddff19, #ff30bd)
+}   
+   
+
+ 
+.about-photo {
+    width: 400px;
+    height: 550px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+  }
+
+.about3{
+    font-size: 50px;
+    color: rgb(8, 80, 116);
+    align-items:center;
+}
+.about1{
+    font-size: 25px;
+    text-align: justify;
+}
+.about2{
+    text-align: justify;
+}
+.about{
+    background-color: rgb(154, 255, 255);
+    align-items: center;
+}
+.about4{
+    font-size: 22px;
+}
+.about5{
+    background-color: #01155e;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    border: #8eb7c2;
+}
+.ser1{
+    font-size: 50px;
+    color: rgb(205, 189, 40);
+    text-align: center;
+}
+.ser11{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.ser2{
+    font-size: 30px;
+    color: #fff;
+}
+.ser22{
+    font-size: 23px;
+    text-align: center;
+    color: #fff;
+}
+
+.ser3{
+    background-color: #004d6b;
+}
+
+
+
+.con{
+    color: #fff;
+    text-align: left;
+    font-size: 25px;
+}
